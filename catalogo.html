@@ -1,0 +1,326 @@
+
+<!doctype html> 
+<html lang="it">
+
+
+    <head>
+        <title>Calvino e le città (in)visibili</title>
+
+        <meta charset="UTF-8">
+        <meta name="DC.Title" content="Calvino e le città (in)visibili">
+        <meta name="DC.Creator" content="Pietro Grassani">
+        <meta name="DC.Subject" content="Racconti, articoli, interviste di Italo Calvino">
+        <meta name="DC.Description" content="Raccolta di testi, video e fotografie di e su Italo Calvino a proposito di spazi urbani reali, confrontati con alcuni passaggi de 'Le città invisibili'">
+        <meta name="DC.Publisher" content="UNIBO">
+        <meta name="DC.Date" content="2023/24">
+        <meta name="DC.Type" content="Sito web">
+        <meta name="DC.Format" content="HTML/CSS/JS">
+        <meta name="DC.Identifier" content="TBD una volta pubblicato"> 
+        <meta name="DC.Language" content="Italiano">
+        <meta name="DC.Rights" content="Licenza CC BY-NC-SA 3.0 IT DEED">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="stilecatalogo.css"> 
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    </head>
+
+
+    
+    <body> 
+
+        <header alt="'Le muse inquietanti' di Giorgio de Chirico">
+            <h1>Calvino e le città <i>(in)visibili</i>.</h1>
+        </header>
+            
+        <nav class="navbar navbar-expand-lg sticky-top">
+           
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="calvino.html">Home</a></li>
+                
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle">Città</a>
+                        <div class="dropdown-menu dropmenu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Napoli</a>
+                                <a class="dropdown-item" href="#">Parigi</a>
+                                <a class="dropdown-item" href="#">Torino</a>
+                                <a class="dropdown-item" href="#">Ipazia</a>
+                                <a class="dropdown-item" href="#">Venezia</a>
+                           </div>
+                    </li>
+
+                    <li class="nav-item active"><a class="nav-link" href="calvino.html">Catalogo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Testi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Immagini</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Video</a></li>
+                </ul>
+            </div>
+
+            <form class="d-flex">
+                <input placeholder="Cerca" class="form-control me-2">
+                <button class="cerca"><a href="calvino.html">Cerca</a></button>
+            </form>   
+        </nav>
+            
+        <main>
+            <section class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 pt-4">
+                        <h2>Tutte le testimonianze</h2>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <aside>
+                            <div class="checkbox-container">
+                                <h3 class="mb-0"><b>Filtra per</b></h3>
+
+                                <div class="dropdown dropend mt-1">
+                                    <button class="btn dropdown-toggle" type="button"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Realtà
+                                    </button>
+                                    <div class="dropdown-menu p-3">
+                                        <input type="checkbox">
+                                        <label><strong class="real">visibili</strong></label><br>
+                                        <input type="checkbox">
+                                        <label><strong class="semireal">romanzate</strong></label><br>
+                                        <input type="checkbox">
+                                        <label><strong class="myth">invisibili</strong></label><br>
+                                        <div class="d-grid">
+                                            <button type="button" class="btn btn-primary mt-2">Filtra</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="dropdown dropend mt-1">
+                                    <button class="btn dropdown-toggle" type="button"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Città
+                                    </button>
+                                    <div class="dropdown-menu p-3">
+                                        <input type="checkbox">
+                                        <label>Ipazia</label><br>
+                                        <input type="checkbox">
+                                        <label>Napoli</label><br>
+                                        <input type="checkbox">
+                                        <label>Parigi</label><br>
+                                        <input type="checkbox">
+                                        <label>Torino</label><br>
+                                        <input type="checkbox">
+                                        <label>Venezia</label><br>
+                                        <div class="d-grid">
+                                            <button type="button" class="btn btn-primary mt-2">Filtra</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="dropdown dropend mt-1">
+                                    <button class="btn dropdown-toggle" type="button"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Data
+                                    </button>
+                                    <div class="dropdown-menu p-3">
+                                        <input type="checkbox" id="data1" name="data1" value="1949">
+                                        <label for="data1">1949</label><br>
+                                        <input type="checkbox" id="data2" name="data2" value="1963">
+                                        <label for="data2">1963</label><br>
+                                        <input type="checkbox" id="data3" name="data3" value="1972">
+                                        <label for="data3">1972</label><br>
+                                        <input type="checkbox" id="data4" name="data4" value="1974">
+                                        <label for="data4">1974</label><br>
+                                        <input type="checkbox" id="data5" name="data5" value="1994"> 
+                                        <label for="data5">1994</label><br>
+                                        <div class="d-grid">
+                                            <button type="button" class="btn btn-primary mt-2">Filtra</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                    
+                    <div class="col-md-10 col-sm-10 col-xs-12">
+                        <div class="row">
+                            
+                            <div class="col-md-4 mt-4">
+                                <div class="card card-item">
+                                    <i class="bi bi-file-text-fill"></i>
+                                    <img src="img/rione.jpg" class="card-img-top"
+                                        title="Uno spiazzo in un rione di Napoli">
+                                    <div class="card-body">
+                                        <div class="card-metadata">
+                                            <h4 class="card-title"><b><i>Freddo a Napoli</i>: il testo</b></h4>
+                                            <p class="card-text">Autore: <a class="cardlink" href="https://lccn.loc.gov/n79128096" target="_blank" 
+                                                title="Identificativo della Library of Congress di Calvino, Italo">Calvino, Italo</a></p>
+                                            <p class="card-text">Altri contributori: <b>Milanini, Claudio; Barenghi, Mario; Falcetto, Bruno; Baranelli, Luca</b></p>
+                                            <p class="card-text">Data: <b>1994</b></p>
+                                            <p class="card-text">Fonte: <a class="cardlink"
+                                                href="http://id.sbn.it/bid/MIL0222858"
+                                                target="_blank"
+                                                title="Scheda OPAC del volume"><i>Romanzi e Racconti</i> di Italo Calvino. Volume 3</a>
+                                            </p>
+                                        </div>
+                                        <a href="item1.html" class="btn btn-primary" title="Tutti i metadati">Vedi i metadati</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4 mt-4">
+                                <div class="card card-item">
+                                    <i class="bi bi-card-image"></i>
+                                    <img src="img/fotounità.png" class="card-img-top"
+                                        title="Prima pagina del numero dell'Unità dell'8 gennaio 1949">
+                                    <div class="card-body">
+                                        <div class="card-metadata">
+                                            <h4 class="card-title"><b><i>Freddo a Napoli</i>: l'articolo di giornale</b></h4>
+                                            <p class="card-text">Autore: <a class="cardlink" href="https://lccn.loc.gov/n79128096" target="_blank" 
+                                                title="Identificativo della Library of Congress di Calvino, Italo">Calvino, Italo</a></p>
+                                            <p class="card-text">Ente responsabile: <a class="cardlink" href="https://www.unita.it" target="_blank" title="Link al sito dell'Unità">l'Unità</a></p>
+                                            <p class="card-text">Data: <b>08/01/1949</b></p>
+                                            <p class="card-text">Fonte: <a class="cardlink"
+                                                href="https://www.giornalidelpiemonte.it/dettaglio.php?globalId=giopiens;1398263;1#"
+                                                target="_blank"
+                                                title="Pagina web dei Giornali del Piemonte">Giornali del Piemonte</a>
+                                            </p>
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <a href="item2.html" class="btn btn-primary" title="Tutti i metadati">Vedi i metadati</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4 mt-4">
+                                <div class="card card-item">
+                                    <i class="bi bi-camera-reels-fill"></i>
+                                    <img src="img/parigi.jpg" class="card-img-top"
+                                        title="La Tour Eiffel di Parigi tra fine 800 e inizio 900">
+                                    <div class="card-body">
+                                        <div class="card-metadata">
+                                            <h4 class="card-title"><b><i>Italo Calvino: un uomo invisibile</i> (Parigi)</b></h4>
+                                            <p class="card-text">Regista: <b>Rapetti, Nereo</b></p>
+                                            <p class="card-text">Altri contributori: <b>Riva, Valerio; Gibier, Denis; Berini, Luciano; Pasotti, Enrico; Bagutti, Enrico</b></p>
+                                            <p class="card-text">Ente responsabile: <a class="cardlink" href="https://www.rsi.ch" target="_blank" 
+                                                title="Link al sito della Radiotelevisione svizzera italiana">Televisione della Svizzera Italiana</a></p>
+                                            <p class="card-text">Data: <b>08/12/1974</b></p>
+                                            <p class="card-text">Fonte: <a class="cardlink"
+                                                href="https://rsi.ch/s/1643011"
+                                                target="_blank"
+                                                title="Pagina dell'archivio dell'RSI dedicata al documentario">Archivio della Radiotelevisione svizzera italiana</a>
+                                            </p>
+                                        </div>
+                                        <a href="#" class="btn btn-primary" title="Tutti i metadati">Vedi i metadati</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="row">
+                           
+                            <div class="col-md-4 mt-4">
+                                <div class="card card2 card-item">
+                                    <i class="bi bi-file-text-fill"></i>
+                                    <img src="img/alessandria.jpg" class="card-img-top"
+                                        title="Il faro di Alessandria, incisione di Philip Galle (1537-1612) su disegno di Marten Van Heemskerck (1498-1574)">
+                                    <div class="card-body">
+                                        <div class="card-metadata">
+                                            <h4 class="card-title"><b>Ipazia, o la convezionalità del linguaggio</b></h4>
+                                            <p class="card-text">Autore: <a class="cardlink" href="https://lccn.loc.gov/n79128096" target="_blank" 
+                                                title="Identificativo della Library of Congress di Calvino, Italo">Calvino, Italo</a></p>
+                                            <p class="card-text">Data: <b>1972</b></p>
+                                            <p class="card-text">Fonte: <a class="cardlink"
+                                                href="http://id.sbn.it/bid/LIA0087980"
+                                                target="_blank"
+                                                title="Scheda OPAC del volume"><i>Le città invisibili.</i> La città e i segni 4</a>
+                                            </p>
+                                        </div>
+                                        <a href="#" class="btn btn-primary" title="Tutti i metadati">Vedi i metadati</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4 mt-4">
+                                <div class="card card2 card-item">
+                                    <i class="bi bi-file-text-fill"></i>
+                                    <img src="img/torinoneve.jpg" class="card-img-top"
+                                        title="Via con la neve, Torino, 15 gennaio 1969">
+                                    <div class="card-body">
+                                        <div class="card-metadata">
+                                            <h4 class="card-title"><b>La città smarrita nella neve<br>(Torino?)</b></h4>
+                                            <p class="card-text">Autore: <a class="cardlink" href="https://lccn.loc.gov/n79128096" target="_blank" 
+                                                title="Identificativo della Library of Congress di Calvino, Italo">Calvino, Italo</a></p>
+                                            <p class="card-text">Data: <b>1963</b></p>
+                                            <p class="card-text">Fonte: <a class="cardlink"
+                                                href="http://id.sbn.it/bid/SBL0259868" 
+                                                target="_blank"
+                                                title="Scheda OPAC del volume"><i>Marcovaldo, ovvero, Le Stagioni in città.</i> Racconto 4</a>
+                                            </p>
+                                        </div>
+                                        <a href="#" class="btn btn-primary" title="Tutti i metadati">Vedi i metadati</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4 mt-4">
+                                <div class="card card2 card-item">
+                                    <i class="bi bi-file-text-fill"></i>
+                                    <img src="img/canaletto.jpg" class="card-img-top"
+                                        title="Il Bucintoro al molo nel giorno dell'Ascensione, Canaletto,  1730, olio su tela">
+                                    <div class="card-body">
+                                        <div class="card-metadata">
+                                            <h4 class="card-title"><b>La città implicita<br>(Venezia)</b></h4>
+                                            <p class="card-text">Autore: <a class="cardlink" href="https://lccn.loc.gov/n79128096" target="_blank" 
+                                                title="Identificativo della Library of Congress di Calvino, Italo">Calvino, Italo</a></p>
+                                            <p class="card-text">Data: <b>1972</b></p>
+                                            <p class="card-text">Fonte: <a class="cardlink"
+                                                href="http://id.sbn.it/bid/LIA0087980"
+                                                target="_blank"
+                                                title="Scheda OPAC del volume"><i>Le città invisibili.</i> Introduzione alla parte 6</a>
+                                            </p>
+                                        </div>
+                                        <a href="#" class="btn btn-primary" title="Tutti i metadati">Vedi i metadati</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 mt-4">
+                                <div class="pagination">
+                                    <a href="#">&laquo;</a>
+                                    <a href="#" class="active">1</a>
+                                    <a href="#">2</a>
+                                    <a href="#">3</a>
+                                    <a href="#">&raquo;</a>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <div class="licenze">
+            <p> <a href="#" class="bottone">Torna su</a> | <a href="#" class="bottone">Credits</a> | <a href="#" class="bottone">Licenze</a></p>
+        </div>
+
+    <footer> 
+        <p>&copy; Copyright Pietro Grassani, 2023/24 -  Corso di Digital Humanities e Patrimonio Culturale
+        </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

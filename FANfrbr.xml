@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF 
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:frbr="http://purl.org/vocab/frbr/core#" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+  <rdf:Description rdf:ID="FANwork" rdf:type="frbr:Work">
+    <frbr:creator rdf:resource="https://lccn.loc.gov/n79128096"/>
+    <dc:title>Freddo a Napoli</dc:title>
+    <dc:creator>Calvino, Italo</dc:creator>
+    <dc:subject>the city of Naples</dc:subject>
+    <dc:description>At first Naples is considered by the author and his group as the stereotype of a popular and pictoresque city, 
+    seen through the lens of film and literary representation, but is subsequently discovered as a place of real and harsh misery, 
+    where people inhabiting the poorest neighborhoods strive everyday for survival. Those people don't hide their condition, but they endure it with dignity 
+    and respect the ones in similar situations. Regardless of this, they get pretty angry at tourists passing-by to pitily sightsee  their poverty.</dc:description>
+    <dc:date>1948-11-01/1949-01-07</dc:date>
+    <dc:type>short story</dc:type>
+    <dc:format>idea for a text</dc:format>
+    <dc:identifier>URI: #FANwork</dc:identifier>
+		<dc:source>Calvino, Italo</dc:source>
+		<dc:language>Italian</dc:language>
+		<dc:relation>#FANtext</dc:relation>
+	  <dc:coverage>Naples, the setting of the story</dc:coverage>
+		<dc:rights>Calvino, Italo</dc:rights>
+  </rdf:Description>
+
+   <rdf:Description rdf:ID="FANoriginal" rdf:type="frbr:Expression">
+    <frbr:realizationOf rdf:resource="#FANwork"/>
+    <frbr:creator rdf:resource="https://lccn.loc.gov/n79128096"/>
+    <dc:title>Freddo a Napoli</dc:title>
+    <dc:creator>Calvino, Italo</dc:creator>
+    <dc:subject>the city of Naples</dc:subject>
+    <dc:description>This is the original text of the story. 
+    At first Naples is considered by the author and his group as the stereotype of a popular and pictoresque city, 
+    seen through the lens of film and literary representation, but is subsequently discovered as a place of real and harsh misery, 
+    where people inhabiting the poorest neighborhoods strive everyday for survival. Those people don't hide their condition, but they endure it with dignity 
+    and respect the ones in similar situations. Regardless of this, they get pretty angry at tourists passing-by to pitily sightsee their poverty.</dc:description>
+    <dc:date>1948-11-15/1949-01-07</dc:date>
+    <dc:type>short story</dc:type>
+    <dc:format>text</dc:format>
+    <dc:identifier>URI: #FANoriginal</dc:identifier>
+		<dc:source>#FANwork</dc:source>
+		<dc:language>Italian</dc:language>
+		<dc:relation>#FANwork, #FANarticle, #FANstory</dc:relation>
+	  <dc:coverage>Naples the setting of the story</dc:coverage>
+		<dc:rights>Calvino, Italo</dc:rights>
+  </rdf:Description>
+  
+  <rdf:Description rdf:ID="FANmanuscript" rdf:type="frbr:Manifestation">
+    <frbr:embodimentOf rdf:resource="#FANoriginal"/>
+    <frbr:creator rdf:resource="https://lccn.loc.gov/n79128096"/>
+    <frbr:responsibleEntity rdf:resource="#"/>
+    <dc:title>Freddo a Napoli</dc:title>
+    <dc:creator>Calvino, Italo</dc:creator>
+    <dc:subject>the city of Naples</dc:subject>
+    <dc:description>This is the  text of the story as we find it in Calvino's manuscript. 
+    At first Naples is considered by the author and his group as the stereotype of a popular and pictoresque city, 
+    seen through the lens of film and literary representation, but is subsequently discovered as a place of real and harsh misery, 
+    where people inhabiting the poorest neighborhoods strive everyday for survival. Those people don't hide their condition, but they endure it with dignity 
+    and respect the ones in similar situations. Regardless of this, they get pretty angry at tourists passing-by to pitily sightsee their poverty.</dc:description>
+    <dc:contributor>Archive preserving Calvino's manuscripts</dc:contributor>
+    <dc:date>1948-11-01/1949-01-07</dc:date>
+    <dc:type>short story</dc:type>
+    <dc:format>manuscript</dc:format>
+    <dc:identifier>URI: #FANmanuscript</dc:identifier>
+    <dc:source>#FANoriginal</dc:source>
+    <dc:language>Italian</dc:language>
+    <dc:relation>#FANoriginal, #FANarticle, #FANstory</dc:relation>
+	  <dc:coverage>Naples, the setting of the story</dc:coverage>
+		<dc:rights>Archive preserving Calvino's manuscripts</dc:rights>
+  </rdf:Description>
+
+  <rdf:Description rdf:ID="FANarticle" rdf:type="frbr:Expression">
+    <frbr:realizationOf rdf:resource="#FANwork"/>  
+    <frbr:revisionOf rdf:resource="#FANoriginal"/>
+    <frbr:creator rdf:resource="https://lccn.loc.gov/n79128096"/>
+    <frbr:responsibleEntity rdf:resource="https://www.unita.it"/>
+    <dc:title>Freddo a Napoli</dc:title>
+    <dc:creator>Calvino, Italo</dc:creator>
+    <dc:subject>the city of Naples</dc:subject>
+    <dc:description>This is version of the story found at page 3 of the turinese edition of the newspaper «l'Unità» published on January 8th 1949, 
+    probably edited directly from the manuscript. At first Naples is considered by the author and his group as the stereotype of a popular and pictoresque city, 
+    seen through the lens of film and literary representation, but is subsequently discovered as a place of real and harsh misery, 
+    where people inhabiting the poorest neighborhoods strive everyday for survival. Those people don't hide their condition, but they endure it with dignity 
+    and respect the ones in similar situations. Regardless of this, they get pretty angry at tourists passing-by to pitily sightsee their poverty.</dc:description>
+    <dc:publisher>l'Unità, Organo dal Partito Comunista Italiano fondato da Antonio Gramsci e Polmiro Togliatti, Edizione Torinese</dc:publisher>
+    <dc:contributor>l'Unità's editorial board</dc:contributor>
+    <dc:date>1949-01-08</dc:date>
+    <dc:type>newspaper article</dc:type>
+    <dc:format>text</dc:format>
+    <dc:identifier>URI: #FANarticle</dc:identifier>
+    <dc:source>#FANoriginal, #FANstory</dc:source>
+    <dc:language>Italian</dc:language>
+    <dc:relation>#FANwork, #FANtext, #FANstory</dc:relation>
+	  <dc:coverage>Turin, the place of publication</dc:coverage>
+		<dc:rights>Copyright of l'Unità</dc:rights>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.giornalidelpiemonte.it/dettaglio.php?globalId=giopiens;1398263;1#" rdf:type="frbr:Manifestation">
+    <frbr:embodimentOf rdf:resource="#FANarticle"/>  
+    <frbr:creator rdf:resource="https://lccn.loc.gov/n79128096"/>
+    <frbr:responsibleEntity rdf:resource="https://www.giornalidelpiemonte.it/edizionitesta.php?testata=L%27Unita%27#menu_articoli"/>
+    <dc:title>Digitalizzazione di Freddo a Napoli</dc:title>
+    <dc:creator>Calvino, Italo</dc:creator>
+    <dc:subject>the city of Naples</dc:subject>
+    <dc:description>This is the digitalization of the turinese edition of the newspaper «l'Unità» published on January 8th 1949, containing, at page 3, the short story "Freddo a Napoli". 
+    At first Naples is considered by the author and his group as the stereotype of a popular and pictoresque city, 
+    seen through the lens of film and literary representation, but is subsequently discovered as a place of real and harsh misery, 
+    where people inhabiting the poorest neighborhoods strive everyday for survival. Those people don't hide their condition, but they endure it with dignity 
+    and respect the ones in similar situations. Regardless of this, they get pretty angry at tourists passing-by to pitily sightsee their poverty.</dc:description>
+    <dc:publisher>Giornali del Piemonte</dc:publisher>
+    <dc:contributor>Consiglio Regionale del Piemonte e Giunta Regionale del Piemonte</dc:contributor>
+    <dc:contributor>Con la collaborazione della Federazione Italiana Piccoli Editori di Giornali (FIPEG), 
+    degli editori che hanno condiviso il progetto, degli istituti culturali, dei Sistemi bibliotecari e delle biblioteche pubbliche</dc:contributor>
+    <dc:date>1949-01-08</dc:date>
+    <dc:type>newspaper article</dc:type>
+    <dc:format>pdf</dc:format>
+    <dc:identifier>https://www.giornalidelpiemonte.it/dettaglio.php?globalId=giopiens;1398263;1#</dc:identifier>
+    <dc:source>#FANarticle, from the "Teca digitale piemontese"</dc:source>
+    <dc:language>Italian</dc:language>
+    <dc:relation>#FANoriginal, #FANarticle, #FANstory</dc:relation>
+	  <dc:coverage>Naples, the setting of the story</dc:coverage>
+		<dc:rights>Free consultation</dc:rights>
+  </rdf:Description>
+
+  <rdf:Description rdf:ID="FANstory" rdf:type="frbr:Expression">
+    <frbr:realizationOf rdf:resource="#FANwork"/>
+    <frbr:reproductionOf rdf:resource="#FANarticle"/>
+    <frbr:creator rdf:resource="https://lccn.loc.gov/n79128096"/>
+    <frbr:responsibleEntity rdf:resource="https://www.mondadori.it"/>
+    <dc:title>Freddo a Napoli</dc:title>
+    <dc:creator>Calvino, Italo</dc:creator>
+    <dc:subject>the city of Naples</dc:subject>
+    <dc:description>This is the version of the story we find in the collection "Romanzi e Racconti di Italo Calvino", specifically in 
+    volume 3: "Racconti sparsi e altri scritti d'invenzione", part 4: "Racconti esclusi da «I racconti». Racconti sparsi (1945-1954)", 
+    at pp. 867-871. At first Naples is considered by the author and his group as the stereotype of a popular and pictoresque city, 
+    seen through the lens of film and literary representation, but is subsequently discovered as a place of real and harsh misery, 
+    where people inhabiting the poorest neighborhoods strive everyday for survival. Those people don't hide their condition, but they endure it with dignity 
+    and respect the ones in similar situations. Regardless of this, they get pretty angry at tourists passing-by to pitily sightsee their poverty.
+    Notes on the text are provided in the section "Note e notizie sui testi. Racconti esclusi da «I racconti»", at pp. 1329f., while bibliographical 
+    information is situated under the heading "Bibliografia degli scritti di Italo Calvino", at p. 1402.</dc:description>
+    <dc:publisher>Arnoldo Mondadori Editore S.p.A., Milano</dc:publisher>
+    <dc:contributor>Under the direction of Claudio Milanini</dc:contributor>
+    <dc:contributor>Curated by Mario Barenghi and Bruno Falcetto</dc:contributor>
+    <dc:date>1994</dc:date>
+    <dc:type>short story, with notes and bibliography</dc:type>
+    <dc:format>text</dc:format>
+    <dc:identifier>URI: #FANstory</dc:identifier>
+    <dc:source>#FANoriginal, #FANmanuscript, #FANarticle</dc:source>
+    <dc:language>Italian</dc:language>
+    <dc:relation>#FANoriginal, #FANmanuscript, #FANarticle, freddoanapoli.xml</dc:relation>
+	  <dc:coverage>Milano, the place of publication</dc:coverage>
+		<dc:rights>Copyright 1994 Arnoldo Mondadori Editore S.p.A., Milano</dc:rights>
+  </rdf:Description>
+
+<rdf:Description rdf:about="freddoanapoli.xml" rdf:type="frbr:Manifestation">
+    <frbr:embodimentOf rdf:resource="#FANstory"/>
+    <frbr:creator rdf:resource="https://lccn.loc.gov/n79128096"/>
+    <frbr:responsibleEntity rdf:resource="https://www.mondadori.it"/>
+    <frbr:responsibleEntity rdf:resource="#PG"/>
+    <dc:title>Freddo a Napoli</dc:title>
+    <dc:creator>Calvino, Italo</dc:creator>
+    <dc:subject>the city of Naples</dc:subject>
+    <dc:description>This is the transcribed and marked-up version of Calvino's short story, adapted from the collection "Romanzi e Racconti di Italo Calvino", specifically from 
+    volume 3: "Racconti sparsi e altri scritti d'invenzione", part 4: "Racconti esclusi da «I racconti». Racconti sparsi (1945-1954)", 
+    at pp. 867-871. At first Naples is considered by the author and his group as the stereotype of a popular and pictoresque city, 
+    seen through the lens of film and literary representation, but is subsequently discovered as a place of real and harsh misery, 
+    where people inhabiting the poorest neighborhoods strive everyday for survival. Those people don't hide their condition, but they endure it with dignity 
+    and respect the ones in similar situations. Regardless of this, they get pretty angry at tourists passing-by to pitily sightsee their poverty.
+    Notes on the text are provided in the section "Note e notizie sui testi. Racconti esclusi da «I racconti»", at pp. 1329f., while bibliographical 
+    information is situated under the heading "Bibliografia degli scritti di Italo Calvino", at p. 1402.</dc:description>
+    <dc:publisher>Università di Bologna</dc:publisher>
+    <dc:contributor>Transcribed and marked-up by Pietro Grassani</dc:contributor>
+    <dc:date>2023</dc:date>
+    <dc:type>digitalization and mark-up of a short story, with notes and bibliography</dc:type>
+    <dc:format>xml/TEI</dc:format>
+    <dc:identifier>freddoanapoli.xml</dc:identifier>
+    <dc:source>#FANstory</dc:source>
+    <dc:language>Italian</dc:language>
+    <dc:relation>#FANwork, #FANoriginal, #FANmanuscript, #FANarticle</dc:relation>
+	  <dc:coverage>Bologna</dc:coverage>
+		<dc:rights>Published under CC BY-NC-SA 3.0 IT DEED licence</dc:rights>
+  </rdf:Description>
+</rdf:RDF>

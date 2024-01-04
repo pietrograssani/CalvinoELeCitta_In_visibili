@@ -1,0 +1,304 @@
+body {
+	font-size: 100%;  
+  font-family: Helvetica, Verdana;
+  background-color: whitesmoke;
+  color: #333;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
+
+header {
+	max-width: 1300px;
+	max-height: 400px;
+	background-image: url("img/dechirico.jpg");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 30px ;
+	padding-bottom: 50px;
+	padding-left: 50px ; 
+	padding-right: 50px;
+	border: 0px;
+	opacity: 0.90;
+	font-family: Helvetica, Verdana;
+	color: whitesmoke;
+  font-weight: bold;
+}
+
+nav {
+  height: 55px;
+  background-color: #333;
+  display: block-inline;
+  font-size: 1.5vw;
+  padding: 0;
+  margin: 0;
+  color: whitesmoke;  
+}
+
+.navbar {
+  padding: 0;
+  margin:0;
+  color: whitesmoke;
+}
+
+.collapse {
+  height: 55px;
+}
+.navbar-nav {
+  margin:0;
+  padding:0;
+  height: 55px;
+  text-align: center;
+}
+
+.nav-item, .nav-link {
+  color: whitesmoke;
+  padding: 0 15px;
+  margin: 0;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.nav-item {
+  line-height: 55px;
+  background-color: #333;
+}
+
+.nav-link {
+  line-height: 55px;
+}
+.active, .nav-item:hover {
+  background-color: #d14719;
+  color: whitesmoke !important;
+  letter-spacing: 3px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.nav-item:hover, .nav-link:hover {
+  text-decoration: none;
+  color: whitesmoke;
+  transition: background-color 0.3s;
+}
+
+.navbar .navbar-nav .nav-item:hover .dropdown-menu {
+  display: block;
+  color: whitesmoke;
+  position: absolute;
+  top: 100%; 
+  left: 0;
+}
+
+a:active, a:visited {
+  text-decoration: none;  
+  color: whitesmoke;
+  background-color: transparent !important;
+}
+
+
+.dropdown-menu {
+  font-size: 1.5vw;
+  background-color: #333;
+  color: whitesmoke;
+  border-radius: 0;
+  border: 0;
+  position: absolute;
+}
+
+.dropdown-item {
+  color: whitesmoke;
+  letter-spacing: normal;
+  line-height: 45px;
+}
+
+.dropdown-item:hover {
+  letter-spacing: 3px;
+  margin: 0;
+  border: 0;
+  color: whitesmoke;
+  background-color: #d14719;
+}
+
+  form  {
+    float: right !important;
+    margin-right: 20px;
+  }
+
+    input {
+      font-size: 16px;
+      border: none;
+      color: #333;
+      border-radius: 6px;
+      margin: 10px;
+      float: left;
+      padding: 6px;
+  }
+
+    .cerca {
+      background-color: #d14719; 
+      border: none; 
+      float: left;
+      color: whitesmoke; 
+      padding: 6px; 
+      font-size: 16px; 
+      cursor: pointer; 
+      border-radius: 6px;
+      margin: 10px 0px;
+    }
+
+      .cerca:hover {
+        background-color: #a03613;
+      } 
+
+      .cerca > a {
+        color: whitesmoke;
+        text-decoration: none;
+      }
+
+section {
+  margin-top: 100;
+  }
+      
+section > div {
+  margin: 10px 70px;
+}
+
+div > p {
+	text-align: justify;
+	padding: 0px;
+  	font-size: 1.8vw;
+}
+
+footer  {
+	background-color: #333;
+	color: whitesmoke;
+	font-weight: bold;
+	padding: 10px;
+	font-size:1vw;
+	text-align: center;
+}
+
+.esplora {
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+ 
+.licenze > p {
+  padding-top: 70px;
+  text-align: center;
+  font-size: 1.5vw;
+}
+ 
+h1 {
+  font-size: 8vw;
+}
+
+h2 {
+	margin-top: 100px;
+	margin-bottom: 40px;
+  font-size: 5vw;
+  letter-spacing: -2px;
+  text-align: left;
+  font-weight: bold;
+  color: #333;
+}
+
+.esplora > h2 { 
+  margin-bottom: 40px;
+  color: #d14719;
+}
+
+.myth { 
+  color: #cc8800;
+}
+
+.real { 
+  color: #006622;
+} 
+
+strong { 
+  letter-spacing: 2px;
+} 
+
+a.bottone:link, a.bottone:visited {
+  color: #d14719;
+  font-weight: bold;
+  padding: 8px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+a.bottone:hover, a.bottone:active {
+  background-color: #d14719;
+  color: whitesmoke; 
+  border-radius: 10px;
+}
+
+.col-md-6 {
+  position: relative;
+}
+
+.col-md-6 > a > img {
+  width: 100%; 
+  object-fit: cover; 
+  height: 100%;
+  border-radius: 20px;
+  margin: 20px;
+  margin-top: 0px;
+  position: relative;
+  transition: .5s ease;
+}
+
+  .col-md-6:hover a > img {
+    opacity: 0.3;
+    transition: .5s ease;
+  }
+
+.caption {
+  text-decoration: none;
+  font-size: 7vw;
+  color: #d14719;
+  letter-spacing: 9px;
+  visibility: hidden;
+  position: absolute;
+  top: 35%;
+  left: 0;
+  width: 100%
+}
+
+  .col-md-6:hover .caption {
+    color: #d14719 !important;
+    visibility: visible;
+  }
+
+.citylink {
+  text-decoration: none;
+  color: #d14719 !important;
+}
+
+.navbar-toggler-icon {
+  color: whitesmoke;
+  padding: 5px; 
+ }
+
+ .navbar-toggler {
+ margin-left: 5px;
+ }
+
+ .navbar-toggler:active, .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+ 
+ 
+
+
+
+
+

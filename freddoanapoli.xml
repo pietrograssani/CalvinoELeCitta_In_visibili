@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI
+xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xml:lang="it">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Trascrizione e marcatura di "Freddo a Napoli", un racconto di Italo Calvino</title>
+				<author>Calvino, Italo</author>
+				<respStmt>
+					<resp>autore della trascrizione e della marcatura</resp>
+					<name xml:id="PG">Pietro Grassani</name>
+				</respStmt>
+			</titleStmt>
+
+			<publicationStmt>
+				<p>Diffuso sotto licenza CC BY-NC-SA 3.0 IT DEED</p>
+			</publicationStmt>
+			
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title>Freddo a Napoli</title>
+						<author>Calvino, Italo</author>
+					</analytic>
+					<monogr>
+						<title>Romanzi e racconti</title>
+						<imprint>
+							<pubPlace>Milano</pubPlace>
+							<publisher>Arnoldo Mondadori Editore</publisher>
+							<date>1991-1994</date>
+							<respStmt>
+								<resp>Sotto la direzione di</resp> 
+								<name>Claudio Milanini</name>
+							</respStmt>
+							<respStmt>
+								<resp>A cura di</resp>
+								<name>Mario Barenghi</name> 
+								<name>Bruno Falcetto</name>
+							</respStmt> 
+
+							<respStmt>
+								<resp>Con una bibliografia degli scritti di Italo Calvino a cura di</resp>
+								<name>Luca Baranelli</name>
+							</respStmt>
+						</imprint>
+						
+						<biblScope unit="volume">Volume 3: "Racconti sparsi e altri scritti d'invenzione"</biblScope>
+						<biblScope unit="part">Parte 4: "Racconti esclusi da «I racconti». Racconti sparsi (1945-1954)"</biblScope> 
+						<biblScope unit="page">pp. 867-871</biblScope> 
+							
+						<biblScope unit="part">Note e notizie sui testi. Racconti esclusi da «I racconti»</biblScope>
+						<biblScope unit="page">pp.1329s</biblScope>
+							
+						<biblScope unit="part">Bibliografia degli scritti di Italo Calvino</biblScope>
+						<biblScope unit="page">p. 1402</biblScope>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	
+	<text>
+		<body> 
+			<head>Freddo a Napoli</head>
+
+			<div type="exposition" resp="#PG">
+				<p n="1">Io credevo che a <placeName type="city" xml:id="NA">Napoli</placeName> facesse caldo anche d'inverno. 
+					Invece il giorno che arrivammo noi arrivò anche il freddo, un vento marino che faceva battere i denti e gli stipiti degli usci. 
+					Io cercavo qualcosa che <q>«facesse <placeName type="city">Napoli</placeName>»</q>, non riuscivo a capire che colore avesse questa città, che ritmo: 
+					mi fermavo a calze rammendate appese fuori dalle case, a lenzuola in aria,
+					<q>«questo fa <placeName type="city">Napoli</placeName>»</q>, ripetevo ogni volta, ma il cielo grigio, il freddo mi perdevano, e non potevo togliermi <placeName type="city">Genova</placeName> dal capo.
+				</p>
+
+				<p n="2">Venne notte e camminavamo ancora contro le cancellate di ferro del porto come in gabbia; 
+					<said aloud="false">ma in fondo mi piace più così</said>, pensavo, <said aloud="false"><placeName type="city">Napoli</placeName> ormai è nord come <placeName type="city">Torino</placeName>, il <rs type="place">Meridione</rs> non esiste, è una storia che raccontano, 
+					tutto il mondo è nord, forse l'unico <soCalled>«terrone»</soCalled> al mondo sono io che giro tra le torri a traliccio e i reparti d'imballaggio 
+					come un neofita in una cattedrale</said>.
+				</p>
+
+				<p n="3">Sotto il <placeName type="monument">Mastio Angioino</placeName> in mezzo al vento incontrammo una bionda che correva e le gridammo <said direct="false">se aveva fretta</said>, 
+					o non ricordo cosa. Tornò indietro e si mise a raccontarcela: parlava <lang>triestino</lang> e <said direct="false">voleva una cena e riscaldarsi</said>. 
+					La lasciammo correre. Poi ci cacciarono dalla <placeName type="tavern" xml:lang="en" xml:id="FI">«Fleet's Inn»</placeName>, la <gloss type="translation" xml:lang="it" target="#FI">«Taverna della flotta»</gloss>, perché era per i soli militari.
+				</p>
+
+				<p n="4">Ci mettemmo a salire per una via a scale dietro un bimbo e una bambina che conducevano un sottufficiale di marina 
+					americano. <said direct="true">«Vedi gli <distinct type="dialectal">scugnizzi</distinct>?</said> - dicevamo. - <said direct="true">Han tovato il cliente, in casa l'altra aspetta»</said>. Però tutto sommato ce ne importava poco, 
+					era una storia vecchia, da film del <date notBefore="1945-04-25">dopoguerra</date>. E poi quel sottufficiale di marina era <distinct type="diminutive">bassottino</distinct> come i ragazzi, e anziano e riflessivo: 
+					uno zio, un piccolo zio in visita, sembrava piuttosto, e quei ragazzi due scolari che aspettano il regalo. <distinct type="dialectal">Scugnizzo</distinct> era un nome retorico, che suonava falso.
+				</p>
+			</div>
+
+			<div type="rising-action" resp="#PG">
+				<p n="5">Ad avvertirci che si faceva sul serio venne a un tratto in mezzo alla via uno <distinct type="diminutive">zoppettino</distinct>: era un bambino sugli otto anni, 
+					senza una gamba, e batteva una <distinct type="diminutive">stampelletta</distinct> sul selciato, chiedendo l'elemosina. 
+					Io non scherzavo già più, non dicevo più: <q>«fa <placeName type="city">Napoli</placeName>»</q>.
+				</p>
+
+				<p n="6">Continuammo per quelle rampe e già s'era capito il trucco: lì c'era <placeName type="street" xml:id="TLD">Toledo</placeName>, <gloss target="#TLD">la via bella</gloss>, coi giovanotti a passeggio, 
+					e sopra, sotto, scantonato un angolo, quest'antichissimo alveare. Questa era <placeName type="city">Napoli</placeName>. Mettendo gli occhi sulle vetrine delle <distinct type="term-of-endearment">bottegucce</distinct>, 
+					m'accadde di vederci una giovane, che si pettinava, e dietro un cassettone, e dietro un letto, e una vecchia seduta con un gatto. 
+					<said direct="true">«Ci abitano, dì! In una bottega, abitano!»</said> dicemmo. E già andavamo lì per chiederle: <said direct="true">«Com'è, povera gente, siete sinistrati, dove vi tocca vivere»</said>, 
+					magari per complimentarci che si facessero vedere così da tutti, come in segno di protesta.
+					Ma ecco che la giovane si torce sul busto contro di noi, piena d'ira, ci fa quel segno che nella <lang>lingua dei gesti</lang> vuol dire: 
+					<said aloud="false">«Che volete?»</said>, ma con stizza, e la vecchia là in fondo s'agita, il gatto scappa e ci vediamo sbattere in faccia una persiana.
+				</p>
+
+				<p n="7"><said direct="true">«Lasciali stare, povera gente,</said> - diciamo - <said direct="true">magari tutti quelli che passano fanno questa scena. 
+					Chissà che noia»</said>. E andiamo avanti zitti, sempre sbirciando ai lati. Ed ecco ai piedi d'una rampa con ringhiera, 
+					un altro finestrone e lì gente che mangia: una famiglia, coi bambini, <distinct type="hypocorism">babbo</distinct>, nonna. Ma non era una bottega, aveva la tappezzeria 
+					a fiorami, il comò, i quadri dei cugini: era una stanza di casa, una vecchia abitatissima 
+					stanza di casa, aperta sulla strada. Quelli già alzano i pugni contro di noi, il padre butta via la seggiola, 
+					ora viene sull'uscio a fare la scenata: andiamo. Qui c'è una legge non scritta, indoviniamo, che dice: 
+					<q>gli occhi tienili nel tuo</q>.
+				</p>
+
+				<p n="8"><said direct="true">«Ci abitano,</said> - ragionavamo - <said direct="true">ci abitano tutti»</said>. Perché in Italia da un posto all'altro queste cose non trapelano 
+					e io dei <rs type="habitation"><soCalled>«bassi»</soCalled></rs> non ne avevo sentito mai parlare. Così salivamo da un vicolo all'altro, dirottavamo per altri vicoli trasversi 
+					e non la smettevamo più di far scoperte. I vetri dei pianterreni erano illuminati e dentro la gente andava letto: da letto vedeva 
+					i passanti in strada, noi che spiavamo sottecchi, e prima d'uscire di campo, davamo un'occhiata sfacciata e via per non pigliar gli insulti.
+				</p>
+			</div>
+
+			<div type="climax" resp="#PG">
+				<p n="9">Da bambino m'era capitato di fare pensieri buffi vedendo i letti nella vetrina dei mobilieri, a immaginarsi dei signori addormentati 
+					dentro con tutta la gente che passa per la via. Ora <placeName type="city">Napoli</placeName> era tutta come quei miei pensieri di ragazzo: <rs ref="#NA">una <w xml:id="W01">città</w> di vetro</rs>, 
+					in cui 
+					<list>
+						<head>non si poteva posare gli occhi in nessun posto</head> 
+						<item n="1">senza violare un segreto,</item> 
+						<item n="2"><w xml:id="W02">senza</w> leggere le cartoline infilate nella cornice degli specchi,</item> 
+						<item n="3">o far andare la zuppa di traverso a un bimbo,</item> 
+						<item n="4">o contare i grani del rosario a una vecchia coricata,</item> 
+						<item n="5">
+							<list>
+								<head>o vedere</head> 
+								<item n="5.1">il seno d'una madre che allatta,</item> 
+								<item n="5.2">o una giovane cambiarsi le calze</item> 
+								<item n="5.3">o un postino fare il bagno ai <w xml:id="W03">piedi</w></item>
+							</list>
+						</item>
+					</list>.
+				</p>
+
+				<p n="10"><rs ref="#NA">Una città ignuda e seria</rs>, con muri di mutuo <w xml:id="W04">rispetto</w>, più spessi d'ogni porta, d'ogni porta chiusa e concreta, dico, non trasparente 
+					come le loro per filtrare il poco sole che arrivava là in fondo. Ecco il segreto del <rs type="place">Sud</rs>: la miseria come modo di esistere, 
+					condizione d'ogni cosa concreta. Ma questo non vuol dire rassegnarsi: erano fieri, non rassegnati, le loro stanze erano scavate all'umida radice 
+					delle case come grotte, ma erano stanze, fiere umili stanze.
+				</p>
+
+				<p n="11">Un venditore ci si mise alle costole: di penne, credo, o fermagli. Diceva cifre assurde: <said direct="false">seimila, cinquemila</said>, poi scendeva a <said direct="false">mille</said>, 
+					a <said direct="false">ottocento</said>, a <said direct="false">trecento</said>. Ecco, bastava staccarsi dal concreto, dalla fiera miseria concreta e si perdeva il filo: il ragionamento, la cifra, 
+					la parola erano ancora sperdute dalle cose, senza un'ancora: tutte le loro speranze, i loro calcoli, il loro rassegnato realismo sfumavano cosi,
+					nelle verità astratte, nelle idee. Questa forse era <placeName type="city">Napoli</placeName>, il <rs type="place">Sud</rs>; <time>a quell'ora</time>, in una 
+					<seg ana="#CGR"><rs type="place">grande casa non distante</rs></seg>
+					<placeName resp="#PG" cert="high" xml:id="CGR">Palazzo Filomarino</placeName>, 
+
+					<addName ref="#BC">il suo vecchio <roleName>filosofo</roleName></addName>
+					<persName resp="#PG" cert="high" xml:id="BC">Croce, Benedetto, 1866-1952</persName>
+					passegiava per le stanze oscure, ricarezzava la costola dei tomi.
+				</p>
+			
+				<p n="12">Ma io pensavo già agli operai, che tornavano ogni sera là nei <rs type="habitation"><soCalled>«bassi»</soCalled></rs>, pensavo che c'erano ora, là in mezzo tra il <soCalled>«popolino»</soCalled>, 
+					gli uomini della civiltà che avevo scelto come mia, quelli dell'
+					<choice>
+						<abbr type="acronym">Ofm</abbr>
+						<expan resp="#PG" cert="medium">Officine Ferroviarie Meridionali</expan>
+					</choice>, dell'
+					<choice>
+						<abbr type="acronym">Ilva</abbr>
+						<expan resp="#PG">Industria Laminati Piani e Affini</expan>
+					</choice><placeName cert="high" resp="#PG">Bagnoli</placeName>, 
+					con la testa già fatta a modo loro, magari quell'anima un po' 
+					timida di neofita ch'era anche mia, nel girare tra le torri a traliccio, 
+					tra i reparti d'imballaggio, ma no, certo mille volte meglio di me, loro che avevano imparato a farci le cose, a cambiarci il mondo, nelle fabbriche, 
+					loro con settimane di sciopero sulla groppa. E allora 
+					<list>
+						<head>non avevo più paura</head> 
+						<item n="1">dei bassi soffitti di quei pianterreni,</item> 
+						<item n="2">delle cifre assurde del venditore,</item> 
+						<item n="3">né delle idee del 
+							<addName ref="#BC">vecchissimo 
+								<roleName>filosofo</roleName>
+							</addName>,
+						</item>
+						<item>né dei crocefissi sull'alto delle rampe</item>
+					</list>, fastosi e barocchi, con scritti sul capitello 
+					<date xml:id="COL">gli anni del colèra</date>
+					<interpGrp>
+						<interp inst="#COL">1836-1837</interp>
+						<interp inst="#COL">1884-1886</interp>
+						<interp inst="#COL">1910-1911</interp>
+					</interpGrp> 
+					
+					Gli operai avevano spalle che facevano leva contro quei soffiti; erano la cerniera per far girare il mondo 
+					i <rs type="habitation"><soCalled>«bassi»</soCalled></rs>.
+				</p>
+			</div>
+
+			<div type="falling-action" resp="#PG">
+				<p n="13">Sugli angoli, ai crocicchi, i ragazzi accendevano fuochi di carta e ci si mettevano coi piedi quasi addosso, per scaldarsi. 
+					Scoprimmo ancora un marinaio che sparì dietro un uscio, e dentro una ragazza bruna con la maglia a righe, poi un giovane che uscì e andò a comprare gli spaghetti 
+					e un altro che andò a comprare i pomodori, e due preti di ritorno a una pia casa lì accanto che non avevan visto niente.
+				</p>
+
+				<p n="14">Ma già eravamo stanchi e cercavamo una via che uscisse fuori. Invece c'impelagavamo sempre di più in quei vicoli,
+					arrivavamo in punti morti, con i poggioli tutt'intorno pavesati di panni, come piazze di palcoscenico, come stessero per venirci a recitare 
+					<seg ana="#DFL">i 
+						<surname>De Filippo</surname>
+					</seg>
+
+					<listPerson xml:id="DFL" resp="#PG">
+						<person>
+							<persName>
+								<surname>De Filippo</surname>
+								<forename>Eduardo</forename>
+							</persName>
+						</person>
+						<person>
+							<persName>
+								<surname>De Filippo</surname> 
+								<forename>Giuseppe</forename>
+								<addName>Peppino</addName>
+							</persName>
+							
+						</person>
+						<person>
+							<persName>
+								<surname>De Filippo</surname>
+								<forename>Annunziata</forename>
+								<addName>Titina</addName>
+							</persName>
+						</person>
+					</listPerson>
+				</p>
+			</div>
+		
+			<div type="conclusion" resp="#PG">
+				<p  n="15">A un giro tutt'a un tratto fummo fuori. C'era una carrozzabile tutta svolte e giardini, palazzi uno su uno giù 
+					che davano le spalle alla <rs type="neighborhood">città vecchia</rs>, e linde botteghe ai pianterreni. <said direct="true">«Qui non de sanno già più niente dei <rs type="habitation"><soCalled>bassi</soCalled></rs>,</said> - dicemmmo - 
+					<said direct="true">se a uno di qui racconto cos'ho visto venti metri più in là mi dice che ho sognato»</said>.
+				</p>
+					
+				<p n="16">Incontrammo qualcuno come noi, invece, che andava a cercar <placeName type="city">Napoli</placeName> anche lui e non la trovava. <said direct="true">«<gloss target="#NA" resp="northen-Italy-character">Il paese del freddo</gloss>, 
+					<sic>questo</sic> <placeName type="city">Napoli</placeName></said> - diceva, - <said direct="true">Io non so, pare <placeName type="city">Torino</placeName></said>». 
+					<said direct="true">«Tale quale <placeName type="city">Torino</placeName>»</said>. Non sapevo cosa dirgli. <said direct="true">«Poi il <geogName type="volcano">Vesuvio</geogName> non fuma»</said>.
+					<said direct="true">«Hai visto, <distinct type="dialectal">neh</distinct></said> - rispondevamo. - <said direct="true">Anni che non fuma, dicono»</said>.
+				</p>
+			</div>
+		</body>
+		
+		<back> 	
+			<div type="notes">
+				<head>Note e notizie sui testi</head>
+
+				<head>Racconti esclusi da «I racconti»</head>
+
+				<head>FREDDO A NAPOLI</head>
+
+				<p>
+					Esempio di racconto descrittivo-saggistico abbastanza isolato in <date from="1945" to="1955" cert="medium" resp="#PG">questi anni</date>, 
+					<bibl>
+						<title level="a">Freddo a Napoli</title>
+						<pubPlace>viene pubblicato sull'edizione torinese</pubPlace>
+						<title level="j">dell'«Unità»</title>
+						<date when="1949-01-08">1'8 gennaio 1949</date>
+					</bibl>. 
+					Ricerca non risolta di una rappresentazione di <placeName ref="#NA">Napoli</placeName> fuori dagli stereotipi, il racconto ci offre però 
+					per un attimo una delle tante immagini di città che popoleranno i suoi libri futuri: una <placeName ref="#NA">Napoli</placeName> vista come 
+					<quote>
+						<span from="#W01" to="#WO4">
+							«città di vetro, in cui non si poteva posare gli occhi in nessun posto senza violare un segreto 
+							<ellipsis start="#W02" end="#W03"><metamark function="ellipsis">[...]</metamark></ellipsis> 
+							ignuda e seria, con muri di 
+							<choice>
+								<sic>muto</sic>
+								<corr resp="#PG">mutuo</corr>
+							</choice> 
+							rispetto»
+						</span>
+					</quote>
+					
+					Il testo trae probabilmente origine da un viaggio napoletano di Calvino <date notBefore="1948-11-15" notAfter="1948-11-30">alla fine di 
+					novembre del 1948</date>: lo suggerisce un suo articolo da <placeName ref="#NA">Napoli</placeName> 
+					sulla Conferenza nazionale dell'Alleanza Giovanile, apparso su 	
+					<bibl xml:id="VN">	
+						<title level="j">«Vie nuove»</title>
+						<date>il 12 dicembre</date> 
+						<title>Parla un giovane ex-repubblichino</title>
+					</bibl>, con un'apertura che richiama direttamente 
+
+					<bibl>il testo per l«Unità»</bibl> (<quote source="#VN">«Il <date when="1948-11-25">25 novembre</date> 
+					fu il primo giorno freddo per <placeName ref="#NA">Napoli</placeName>»</quote>). 
+					Il dattiloscritto custodito in casa Calvino non mostra varianti significative.
+				</p>
+			</div>
+
+			<div type="bibliogr">
+				<listBibl>
+					<head>Bibliografia degli scritti di Italo Calvino</head>
+				
+					<biblStruct>
+
+						<analytic>
+							<title>Freddo a Napoli</title>
+						</analytic>
+
+						<monogr>
+							<title>«l'Unità»</title>
+							
+							<imprint>
+								<pubPlace resp="#PG">Torino</pubPlace>
+								<date when="1949-01-08">8 gennaio 1949</date>
+							</imprint>
+
+							<biblScope unit="year">26</biblScope>
+							<biblScope unit="issue">7</biblScope>
+							<biblScope unit="page">p. 3</biblScope>
+						</monogr>
+
+						<monogr>
+							<title>
+								<choice>
+									<abbr>RR</abbr>
+									<expan resp="#PG">Romanzi e Racconti</expan>
+								</choice>
+							</title>
+						<imprint>
+							<date>1994</date>
+						</imprint>	
+							<biblScope unit="volume">III</biblScope>
+							<biblScope unit="page">pp. 867-871</biblScope>
+						</monogr>
+					</biblStruct>
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

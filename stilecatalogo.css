@@ -71,6 +71,11 @@ nav {
 .nav-link {
   line-height: 55px;
 }
+
+.nav-link:link, .nav-link:visited, .nav-link:active {
+  color: whitesmoke !important; 
+}
+
 .active, .nav-item:hover {
   background-color: #d14719;
   color: whitesmoke !important;
